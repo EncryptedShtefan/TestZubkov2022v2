@@ -48,9 +48,9 @@
                 foreach (var point in another.points) // 2
                 {
                     // 3 
-                    var a = (points[0].X - point.X) * (points[1].Y - points[0].Y) - (points[1].X - points[0].X) * (points[0].Y - point.Y);
-                    var b = (points[1].X - point.X) * (points[2].Y - points[1].Y) - (points[2].X - points[1].X) * (points[1].Y - point.Y);
-                    var c = (points[2].X - point.X) * (points[0].Y - points[2].Y) - (points[0].X - points[2].X) * (points[2].Y - point.Y);
+                    var a = (points[0].X - point.X) * (points[1].Y - points[0].Y) - (points[1].X - points[0].X) * (points[0].Y - point.Y); 
+                    var b = (points[1].X - point.X) * (points[2].Y - points[1].Y) - (points[2].X - points[1].X) * (points[1].Y - point.Y); 
+                    var c = (points[2].X - point.X) * (points[0].Y - points[2].Y) - (points[0].X - points[2].X) * (points[2].Y - point.Y); 
 
                     //4
                     if (a >= 0)
